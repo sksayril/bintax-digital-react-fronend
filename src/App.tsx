@@ -116,7 +116,7 @@ function App() {
 
       // Initialize Razorpay
       const options = {
-        key: 'rzp_test_Oy62IkchWuGtwR', // Replace with your Razorpay Key ID
+        key: 'rzp_live_7GXEZQosubI74a', // Replace with your Razorpay Key ID
         amount: selectedProduct.purchasePrice * 100, // Amount in smallest currency unit (paise)
         currency: 'INR',
         name: 'BintaxDigital',
