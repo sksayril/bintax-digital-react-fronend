@@ -1,6 +1,6 @@
 import { Customer, CreateOrderRequest, VerifyPaymentRequest } from '../types';
 
-const API_BASE_URL = 'https://7cvccltb-3000.inc1.devtunnels.ms/api';
+const API_BASE_URL = 'https://api.bintax.co.in/api';
 
 export const fetchProducts = async () => {
   try {
