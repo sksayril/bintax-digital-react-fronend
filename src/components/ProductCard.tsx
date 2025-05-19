@@ -81,7 +81,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onPurchase, isLoadin
           ) : (
             <ShoppingBag className="mr-2 h-5 w-5" />
           )}
-          <span className="font-semibold">{isLoading ? 'Processing...' : 'Buy Now'}</span>
+          <span className="font-semibold">{isLoading ? 'Processing...' : 'Shop Now'}</span>
         </button>
         
         <div className="flex items-center justify-between mt-4 text-sm text-gray-500">
